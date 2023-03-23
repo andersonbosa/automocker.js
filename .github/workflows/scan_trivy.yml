@@ -1,0 +1,35 @@
+# Name of this GitHub Actions workflow.
+name: Trivy Security Scan
+
+on:
+  # Scan changed files in PRs (diff-aware scanning):
+  pull_request: {}
+  # Scan mainline branches and report all findings:
+  push:
+    branches: ["main"]
+  # Allows you to start manually
+  workflow_dispatch: {}
+
+jobs:
+  scan:
+    # You can change the Scanner here to any who performs SARIF output
+    name: Trivy Scan
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Run Trivy vulnerability scanner in repo mode
+        uses: aquasecurity/trivy-action@master
+        with:
+          scan-type: "fs"
+          ignore-unfixed: true
+          format: "sarif"
+          output: results.sarif
+          severity: "CRITICAL"
+
+      - name: Upload results
+        uses: actions/upload-artifact@v3
+        with:
+          name: results.sarif
+          path: results.sarif

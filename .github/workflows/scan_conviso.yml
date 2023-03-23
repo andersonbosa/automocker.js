@@ -1,0 +1,26 @@
+# Name of this GitHub Actions workflow.
+name: Conviso SAST
+
+on:
+  # Scan changed files in PRs (diff-aware scanning):
+  pull_request: {}
+  # Scan mainline branches and report all findings:
+  push:
+    branches: ["main"]
+  # Allows you to start manually
+  workflow_dispatch: {}
+
+jobs:
+  conviso:
+    # User definable name of this GitHub Actions job.
+    name: Conviso SAST
+    # If you are self-hosting, change the following `runs-on` value:
+    runs-on: ubuntu-latest
+
+    container:
+      image: convisoappsec/flowcli
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: AST
+        run: conviso sast run --no-send-to-flow
