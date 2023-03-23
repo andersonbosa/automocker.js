@@ -1,0 +1,266 @@
+[
+  {
+    "type": "email",
+    "content": "lih@bicboos.by"
+  },
+  {
+    "type": "email",
+    "content": "joe@gmail.com"
+  },
+  {
+    "type": "email",
+    "content": "anne@yahoo.com"
+  },
+  {
+    "type": "email",
+    "content": "mike@hotmail.com"
+  },
+  {
+    "type": "email",
+    "content": "sara@outlook.com"
+  },
+  {
+    "type": "email",
+    "content": "jane@aol.com"
+  },
+  {
+    "type": "email",
+    "content": "john@icloud.com"
+  },
+  {
+    "type": "email",
+    "content": "emily@protonmail.com"
+  },
+  {
+    "type": "email",
+    "content": "peter@zoho.com"
+  },
+  {
+    "type": "email",
+    "content": "kate@mail.com"
+  },
+  {
+    "type": "email",
+    "content": "alex@fastmail.com"
+  },
+  {
+    "type": "email",
+    "content": "dave@gmx.com"
+  },
+  {
+    "type": "email",
+    "content": "lisa@me.com"
+  },
+  {
+    "type": "email",
+    "content": "greg@att.net"
+  },
+  {
+    "type": "name",
+    "content": "Beulah Cummings"
+  },
+  {
+    "type": "name",
+    "content": "Rhoda Gibbs"
+  },
+  {
+    "type": "name",
+    "content": "Alex Bowen"
+  },
+  {
+    "type": "name",
+    "content": "Marion Hardy"
+  },
+  {
+    "type": "name",
+    "content": "Derek Higgins"
+  },
+  {
+    "type": "name",
+    "content": "Corey Holland"
+  },
+  {
+    "type": "name",
+    "content": "Ruby Stewart"
+  },
+  {
+    "type": "name",
+    "content": "Jeremy Terry"
+  },
+  {
+    "type": "name",
+    "content": "George Rose"
+  },
+  {
+    "type": "name",
+    "content": "Justin Watkins"
+  },
+  {
+    "type": "name",
+    "content": "Zachary Shelton"
+  },
+  {
+    "type": "name",
+    "content": "Jeffery Lawrence"
+  },
+  {
+    "type": "name",
+    "content": "Aaron Taylor"
+  },
+  {
+    "type": "name",
+    "content": "Landon Watson"
+  },
+  {
+    "type": "number",
+    "content": "60"
+  },
+  {
+    "type": "number",
+    "content": "84"
+  },
+  {
+    "type": "number",
+    "content": "12"
+  },
+  {
+    "type": "number",
+    "content": "98"
+  },
+  {
+    "type": "number",
+    "content": "12"
+  },
+  {
+    "type": "number",
+    "content": "30"
+  },
+  {
+    "type": "number",
+    "content": "90"
+  },
+  {
+    "type": "number",
+    "content": "91"
+  },
+  {
+    "type": "number",
+    "content": "47"
+  },
+  {
+    "type": "number",
+    "content": "3"
+  },
+  {
+    "type": "number",
+    "content": "66"
+  },
+  {
+    "type": "address",
+    "content": "1173 Fiva Point"
+  },
+  {
+    "type": "address",
+    "content": "935 Zusfap Manor"
+  },
+  {
+    "type": "address",
+    "content": "781 Addoz Parkway"
+  },
+  {
+    "type": "address",
+    "content": "304 Dozwo View"
+  },
+  {
+    "type": "address",
+    "content": "1657 Jergu Turnpike"
+  },
+  {
+    "type": "address",
+    "content": "355 Zoga Highway"
+  },
+  {
+    "type": "address",
+    "content": "497 Coco Way"
+  },
+  {
+    "type": "address",
+    "content": "1189 Azuvor Circle"
+  },
+  {
+    "type": "address",
+    "content": "1881 Luuko Center"
+  },
+  {
+    "type": "address",
+    "content": "648 Kelbi Road"
+  },
+  {
+    "type": "address",
+    "content": "1379 Utuoce Terrace"
+  },
+  {
+    "type": "address",
+    "content": "1162 Papvo Pass"
+  },
+  {
+    "type": "cpf",
+    "content": "30030030030"
+  },
+  {
+    "type": "cpf",
+    "content": "12345678900"
+  },
+  {
+    "type": "phonenumber",
+    "content": "(581) 416-3080"
+  },
+  {
+    "type": "phonenumber",
+    "content": "(814) 514-1915"
+  },
+  {
+    "type": "phonenumber",
+    "content": "(365) 657-3063"
+  },
+  {
+    "type": "phonenumber",
+    "content": "(971) 639-9256"
+  },
+  {
+    "type": "phonenumber",
+    "content": "(826) 313-1627"
+  },
+  {
+    "type": "id",
+    "content": "bebd6c36-795c-51dc-aa5c-b4887b7dde13"
+  },
+  {
+    "type": "id",
+    "content": "50ef3d92-4852-56b1-b0e8-f7d7938eee43"
+  },
+  {
+    "type": "id",
+    "content": "d85e752e-7f9f-5889-9b97-8964021e488d"
+  },
+  {
+    "type": "password",
+    "content": "db8a7526-ad43-5fdb-b611-d368d82f899a"
+  },
+  {
+    "type": "password",
+    "content": "67108ddd-6dc4-5182-a10e-3c08eb86dbda"
+  },
+  {
+    "type": "password",
+    "content": "850eb0ca-9592-53c8-8d4c-bd271d1162c9"
+  },
+  {
+    "type": "password",
+    "content": "2e49d9c8-ec73-5880-b8a7-dd6ec1f64026"
+  },
+  {
+    "type": "",
+    "content": ""
+  }
+]
