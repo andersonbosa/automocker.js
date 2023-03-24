@@ -12,9 +12,7 @@
   <a href="#">
     <img src="https://img.shields.io/badge/Licenses-MIT%20and%20UNLICENSE-blue.svg" alt="Licenses" title="Check the repository">
   </a>
-  <a href="./docs/index.md">
-    <img src="https://img.shields.io/badge/Docs-CLICK%20HERE-green.svg" alt="See the docs" title="Check the repository">
-  </a>
+
 
   <p>
     <a href="#about">About</a> •
@@ -22,7 +20,8 @@
     <a href="#contribution">Contribution</a> •
     <a href="#author">Author</a> •
     <a href="#license">License</a> •
-    <a href="#statistics">Statistics</a>
+    <a href="#statistics">Statistics</a> •
+    <a href="./docs/index.md">Documentation</a>
   </p>
 </section>
 
