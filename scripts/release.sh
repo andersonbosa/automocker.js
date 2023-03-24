@@ -89,7 +89,7 @@ create_tag_version
 push_version
 if [ $? -eq $EXIT_SUCCESS ]; then
   log "success" 'Access the link to setup a Release on Github'
-  echo -n "\t\"https://github.com/andersonbosa/automocker.js/releases/new\""
+  echo '         "https://github.com/andersonbosa/automocker.js/releases/new"'
 else
   log "error" "Something was wrong ...For now I can't help you 🥲"
 fi
