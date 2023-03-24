@@ -6,6 +6,8 @@
   <br>
 
   <!-- badges -->
+  [![License: UNLICENSE](https://img.shields.io/badge/License-MIT%20&amp;%20UNLICENSE-blue.svg)](./UNLICENSE.md)
+
 
   <p>
     <a href="#about">About</a> •
@@ -21,10 +23,12 @@
 
 <h2 id="about">💬 About</h2>
 
+<p align="justify">
 Automocker.js was developed to make developers' lives easier! With this tool, you can fill in the input fields of your form with random values and thus speed up your tests. Don't waste any more time manually filling in your form inputs. Use Automocker.js and increase the agility and efficiency of your workflow.
+</p>
+
 
 <h2 id="technologies"> 🛠️ Technologies</h2>
-
 
 * [Webpack 5](https://webpack.js.org/)
 * [NodeJS](https://nodejs.dev/)
@@ -38,7 +42,7 @@ Automocker.js was developed to make developers' lives easier! With this tool, yo
 
 <h2 id="contribution">🤝 Contribution</h2>
 
-<p>
+<p align="justify">
   This project is for study purposes too, so please send me a message telling me what you are doing and why you are doing it, teach me what you know. All kinds of contributions are very welcome and appreciated!
 </p>
 
