@@ -62,12 +62,12 @@ This project is under 2 licenses: [MIT](LICENSE.md) and [Unlicense](./UNLICENSE.
   </summary>
   
   <h4> Stargazers </h4>
-  <a href="https://github.com/andersonbosa/automocker/stargazers">
+  <a href="https://github.com/andersonbosa/automocker.js/stargazers">
     <img src="https://reporoster.com/stars/andersonbosa/automocker" alt="Stargazers" title="Stargazers" />
   </a>
 
   <h4> Forkers </h4>
-  <a href="https://github.com/andersonbosa/automocker/network/members">
+  <a href="https://github.com/andersonbosa/automocker.js/network/members">
     <img src="https://reporoster.com/forks/andersonbosa/automocker" alt="Forkers" title="Forkers" />
   </a>
 
@@ -76,6 +76,6 @@ This project is under 2 licenses: [MIT](LICENSE.md) and [Unlicense](./UNLICENSE.
 ---
 
 <h4>  
-  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/andersonbosa/automocker?style=social">
+  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/andersonbosa/automocker.js?style=social">
   | Did you like the repository? Give it a star! 😁
 </h4>
