@@ -6,7 +6,8 @@
   <br>
 
   <!-- badges -->
-  [![License: UNLICENSE](https://img.shields.io/badge/License-MIT%20&amp;%20UNLICENSE-blue.svg)](./UNLICENSE.md)
+  [![Licenses](https://img.shields.io/badge/Licenses-MIT%20and%20UNLICENSE-blue.svg)](#)
+  [![Docs](https://img.shields.io/badge/Docs-click%20here-green.svg)](./docs/index.md)
 
 
   <p>
