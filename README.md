@@ -48,7 +48,7 @@ Automocker.js was developed to make developers' lives easier! With this tool, yo
 
 <h2 id="license"> 📝 License</h2>
 
-This project is under the MIT license.
+This project is under 2 licenses: [MIT](LICENSE.md) and [Unlicense](./UNLICENSE.md).
 
 <details>
   <summary>
