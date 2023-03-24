@@ -6,9 +6,12 @@
   <br>
 
   <!-- badges -->
-  [![Licenses](https://img.shields.io/badge/Licenses-MIT%20and%20UNLICENSE-blue.svg)](#)
-  [![Docs](https://img.shields.io/badge/Docs-click%20here-green.svg)](./docs/index.md)
-
+  <a href="#">
+    <img src="https://img.shields.io/badge/Licenses-MIT%20and%20UNLICENSE-blue.svg" alt="Licenses" title="Check the repository">
+  </a>
+  <a href="./docs/index.md">
+    <img src="https://img.shields.io/badge/Docs-click%20here-green.svg" alt="See the docs" title="Check the repository">
+  </a>
 
   <p>
     <a href="#about">About</a> •
