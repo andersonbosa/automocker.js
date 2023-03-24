@@ -8,7 +8,7 @@
 
 ### Getting started
 
-- Check the [Getting started](docs/getting_started.md) document.
+- Check the [Getting started](getting_started.md) document.
 
 
 ### TODOS
