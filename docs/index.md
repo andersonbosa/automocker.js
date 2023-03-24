@@ -3,8 +3,8 @@
 
 ### Limitations
 
-The tool needs to be injected into the page. The most practical way today is to use one of the following tools: [Violent Monkey][1], [Tamper Monkey][2].
-
+- The tool needs to be injected into the page. The most practical way today is to use one of the following tools: [Violent Monkey][1], [Tamper Monkey][2].
+- It is necessary to manually configure the header of the previously mentioned tools.
 
 ### Getting started
 

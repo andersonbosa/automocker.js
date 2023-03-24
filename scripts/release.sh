@@ -58,7 +58,7 @@ function build_release() {
 
   npm install
 
-  rm -v ./build ./release
+  rm -r ./build ./release
   npm run build
 
   mv -v ./build ./release
@@ -85,13 +85,13 @@ function assert_tag_version() {
   log "info" "No tag for version $VERSION found. Continuing ..."
 }
 
-assert_tag_version
+# assert_tag_version
 build_release
-create_tag_version
-push_version
+# create_tag_version
+# push_version
+
 if [ $? -eq $EXIT_SUCCESS ]; then
-  log "success" 'Access the link to setup a Release on Github'
-  echo '         "https://github.com/andersonbosa/automocker.js/releases/new"'
+  log "success" 'Access the link to setup a Release on Github: "https://github.com/andersonbosa/automocker.js/releases/new"'
 else
   log "error" "Something was wrong ...For now I can't help you 🥲"
 fi
