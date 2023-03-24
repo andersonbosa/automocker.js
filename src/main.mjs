@@ -6,6 +6,7 @@ const TYPES = {
   email: 'email',
   password: 'password',
   name: 'name',
+  phone: 'phone',
   number: 'number',
 }
 
@@ -66,6 +67,18 @@ function injectRandomContent () {
 }
 
 
+function bindInjectionByEventsTrigger () {
+  const injectionHandler = evt => {
+    console.log('[INFO] triggering injection in the inputs...')
+    setTimeout(
+      () => { injectRandomContent() },
+      250
+    )
+  }
+
+  window.document.addEventListener('click', injectionHandler)
+}
+
 /* ========================================================================= */
 
 
@@ -75,6 +88,7 @@ async function main (startUpOptions = {}) {
   console.log(banner)
 
   injectRandomContent()
+  bindInjectionByEventsTrigger()
 }
 
 

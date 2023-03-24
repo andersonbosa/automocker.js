@@ -1,8 +1,17 @@
 [
-  {
-    "type": "email",
-    "content": "lih@bicboos.by"
-  },
+  { "type": "phone", "content": "219992804700" },
+  { "type": "phone", "content": "219915938733" },
+  { "type": "phone", "content": "219959352963" },
+  { "type": "phone", "content": "219975816615" },
+  { "type": "phone", "content": "219936674153" },
+  { "type": "phone", "content": "219994614717" },
+  { "type": "phone", "content": "55219914273860" },
+  { "type": "phone", "content": "55219933144046" },
+  { "type": "phone", "content": "55219994748661" },
+  { "type": "phone", "content": "55219932491916" },
+  { "type": "phone", "content": "55219986861360" },
+
+  { "type": "email", "content": "lih@bicboos.by" },
   {
     "type": "email",
     "content": "joe@gmail.com"
@@ -212,23 +221,23 @@
     "content": "12345678900"
   },
   {
-    "type": "phonenumber",
+    "type": "phone",
     "content": "(581) 416-3080"
   },
   {
-    "type": "phonenumber",
+    "type": "phone",
     "content": "(814) 514-1915"
   },
   {
-    "type": "phonenumber",
+    "type": "phone",
     "content": "(365) 657-3063"
   },
   {
-    "type": "phonenumber",
+    "type": "phone",
     "content": "(971) 639-9256"
   },
   {
-    "type": "phonenumber",
+    "type": "phone",
     "content": "(826) 313-1627"
   },
   {
