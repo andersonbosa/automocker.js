@@ -39,7 +39,7 @@ This is a collection of some sample models for you to use in your projects. Amon
 
 <h2>🚀 Deploy</h2>
 
-* Distributed here, in [Github](https://github.com/andersonbosa/dothub)
+* Distributed here, in [Github](https://github.com/andersonbosa/automocker)
 
 <h2 id="contribution">🤝 Contribution</h2>
 
@@ -61,13 +61,13 @@ This project is under the MIT license.
   </summary>
   
   <h4> Stargazers </h4>
-  <a href="https://github.com/andersonbosa/dothub/stargazers">
-    <img src="https://reporoster.com/stars/andersonbosa/dothub" alt="Stargazers" title="Stargazers" />
+  <a href="https://github.com/andersonbosa/automocker/stargazers">
+    <img src="https://reporoster.com/stars/andersonbosa/automocker" alt="Stargazers" title="Stargazers" />
   </a>
 
   <h4> Forkers </h4>
-  <a href="https://github.com/andersonbosa/dothub/network/members">
-    <img src="https://reporoster.com/forks/andersonbosa/dothub" alt="Forkers" title="Forkers" />
+  <a href="https://github.com/andersonbosa/automocker/network/members">
+    <img src="https://reporoster.com/forks/andersonbosa/automocker" alt="Forkers" title="Forkers" />
   </a>
 
 </details>
@@ -75,6 +75,6 @@ This project is under the MIT license.
 ---
 
 <h4>  
-  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/andersonbosa/dothub?style=social">
+  <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/andersonbosa/automocker?style=social">
   | Did you like the repository? Give it a star! 😁
 </h4>
