@@ -21,12 +21,7 @@
 
 <h2 id="about">💬 About</h2>
 
-This is a collection of some sample models for you to use in your projects. Among them are, for example:
-
-* Github templates
-* Github workflows
-  * Application security testing samples
-* Style pattern
+Automocker.js was developed to make developers' lives easier! With this tool, you can fill in the input fields of your form with random values and thus speed up your tests. Don't waste any more time manually filling in your form inputs. Use Automocker.js and increase the agility and efficiency of your workflow.
 
 <h2 id="technologies"> 🛠️ Technologies</h2>
 
