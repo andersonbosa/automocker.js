@@ -62,7 +62,7 @@ function build_release() {
 
   mv -v ./build ./release
 
-  git add ./release
+  git add ./release ./package-lock.json ./package.json
   git commit -m 'Update version and release new bundle'
 }
 
@@ -89,7 +89,7 @@ create_tag_version
 push_version
 if [ $? -eq $EXIT_SUCCESS ]; then
   log "success" 'Access the link to setup a Release on Github'
-  echo -n '\t > "https://github.com/andersonbosa/automocker.js/releases/new"'
+  echo -n "\t\"https://github.com/andersonbosa/automocker.js/releases/new\""
 else
   log "error" "Something was wrong ...For now I can't help you 🥲"
 fi
