@@ -7,6 +7,9 @@
 
   <!-- badges -->
   <a href="#">
+    <img src="https://img.shields.io/badge/Developed%20with-chatGPT-orange.svg" alt="Powered by">
+  </a>
+  <a href="#">
     <img src="https://img.shields.io/badge/Licenses-MIT%20and%20UNLICENSE-blue.svg" alt="Licenses" title="Check the repository">
   </a>
   <a href="./docs/index.md">
