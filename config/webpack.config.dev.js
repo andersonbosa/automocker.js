@@ -25,7 +25,7 @@ module.exports = {
     // https://github.com/jantimon/html-webpack-plugin#options
     new HtmlWebpackPlugin({
       title: "Automocker.js",
-      favicon: paths.src + '/assets/images/favicon.svg',
+      favicon: paths.public + '/assets/images/favicon.svg',
       template: paths.src + '/assets/template.html',
       filename: 'index.html',
     })
