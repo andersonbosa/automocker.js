@@ -1,11 +1,10 @@
 {
   "name": "automocker.js",
   "version": "1.0.0",
-  "description": "",
   "private": true,
   "keywords": [],
   "author": "anderson bosa < https://github.com/andersonbosa >",
-  "license": "MIT",
+  "license": "MIT+Unlicense",
   "scripts": {
     "dev": "NODE_ENV=development webpack-dev-server --config=./config/webpack.config.js",
     "build": "NODE_ENV=production webpack --config=./config/webpack.config.js",
