@@ -36,7 +36,15 @@ function log() {
   echo -e "$timestamp[$color${type^^}\033[0m] $message" >&2
 }
 
-function tag_version() {
+function create_tag_version() {
+  read -p "[INPUT] Do you want to create a Git tag to release this version? (y/n): " CHOICE
+  if [[ "$CHOICE" =~ ^[Yy]$ ]]; then
+    tag_version
+  else
+    log "INFO" "No Git tag created and exiting..."
+    exit $EXIT_BY_USER
+  fi
+
   git tag -a "$VERSION" -m "Tagging version $VERSION"
   if [ $? -eq $EXIT_SUCCESS ]; then
     log "success" "Git tag $VERSION created successfully"
@@ -48,11 +56,14 @@ function tag_version() {
 function build_release() {
   log "info" "Building release to $VERSION"
 
-  npm run install
+  npm install
 
   npm run build
 
   mv -v ./build ./release
+
+  git add ./release
+  git commit -m 'Update version and release new bundle'
 }
 
 function push_version() {
@@ -63,22 +74,18 @@ function push_version() {
     log "error" "Failed to push Git tag $VERSION to remote repository"
   fi
 }
-if [[ "$TAGS" =~ "$VERSION" ]]; then
-  log "error" "Error: a tag for version $VERSION already exists"
-  exit $EXIT_BY_ANY
-fi
 
-log "info" "No tag for version $VERSION found. Continuing ..."
+function assert_tag_version() {
+  if [[ "$TAGS" =~ "$VERSION" ]]; then
+    log "error" "Error: a tag for version $VERSION already exists"
+    exit $EXIT_BY_ANY
+  fi
+  log "info" "No tag for version $VERSION found. Continuing ..."
+}
 
-read -p "[INPUT] Do you want to create a Git tag to release this version? (y/n): " CHOICE
-if [[ "$CHOICE" =~ ^[Yy]$ ]]; then
-  tag_version
-else
-  log "INFO" "No Git tag created and exiting..."
-  exit $EXIT_BY_USER
-fi
-
+assert_tag_version
 build_release
+create_tag_version
 push_version
 if [ $? -eq $EXIT_SUCCESS ]; then
   log "success" 'Access the link to setup a Release on Github'
