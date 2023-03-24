@@ -26,10 +26,10 @@ Automocker.js was developed to make developers' lives easier! With this tool, yo
 <h2 id="technologies"> 🛠️ Technologies</h2>
 
 
-* [Markdown](https://www.markdownguide.org/)
-* [SVG](https://developer.mozilla.org/en-US/docs/Web/SVG)
-* [XHTML](https://www.w3docs.com/learn-html/xhtml-extensible-hypertext-markup-language.html)
-
+* [Webpack 5](https://webpack.js.org/)
+* [NodeJS](https://nodejs.dev/)
+* [aicommits](https://github.com/Nutlope/aicommits)
+* [dothub](https://github.com/andersonbosa/dothub)
 
 
 <h2>🚀 Deploy</h2>
