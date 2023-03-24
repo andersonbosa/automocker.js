@@ -58,9 +58,11 @@ function build_release() {
 
   npm install
 
+  rm -v ./build ./release
   npm run build
 
   mv -v ./build ./release
+  mv release/automocker.*.bundle.js release/automocker.bundle.user.js
 
   git add ./release ./package-lock.json ./package.json
   git commit -m 'Update version and release new bundle'
