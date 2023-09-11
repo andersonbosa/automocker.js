@@ -20,7 +20,7 @@ jobs:
     container:
       image: convisoappsec/flowcli
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: AST
         run: conviso sast run --no-send-to-flow
